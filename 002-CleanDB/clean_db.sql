@@ -1,5 +1,5 @@
 -- select our db
-USE country_db;
+USE cleaned_db;
 
 -- drop tables and the db in this order
 DROP TABLE IF EXISTS cities;  -- because cities depends on countries
